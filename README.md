@@ -27,10 +27,16 @@ minimalism of the implementation. However there is a
 [much more feature complete fork](https://github.com/MalcolmRobb/dump1090)
 available, developed by MalcolmRobb.
 
-Installation
+Setup & Installation
 ---
 
-Type "make".
+1. `cd ~`
+2. `sudo apt update`
+3. `sudo apt upgrade`
+4. `sudo apt install git librtlsdr-dev`
+5. `git clone git@github.com:MimoCAD/dump1090.git`
+6. `cd dump1090`
+7. `make`
 
 Normal usage
 ---
